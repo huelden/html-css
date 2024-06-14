@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+           
+        }
+        header{
+            background-color: rgb(179, 205, 228);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(182, 128, 128);
+            padding: 4px;
+            box-shadow: 7px 2px 3px rgba(0, 0, 0, 0.39);
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(18, 107, 100);
+            font-weight: bolder;
+            margin-right: 30px;
+            box-shadow: 7px 2px 3px rgba(0, 0, 0, 0.507);
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main{
+            background-color: rgb(203, 226, 214);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px ;
+            
+        }
+        article{
+            background-color: rgb(231, 203, 174);
+            padding: 5px;
+            border-radius: 20px;
+            box-shadow: 4px  5px 3px rgba(0, 0, 0, 0.63);
+        }
+        article > aside{
+            background-color:rgb(233, 131, 29) ;
+            
+        }
+        footer{
+            background-color: rgb(77, 74, 71);
+            color: aliceblue;
+            padding: 4px;
+            margin: 0px;
+            text-align: center;
+
+        }
+        footer > p{
+            margin: 0px;
+        }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+             <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+    <p>Texte site</p>
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre html</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis dignissimos illo voluptatum incidunt, tempore eius id iure, cupiditate, sed exercitationem magni? Laudantium excepturi, accusamus tempore doloribus eos quia tenetur magni?</p>
+                <aside><p>Artigo escrito por José</p></aside>
+
+            </article>
+            
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvidor pelo Huelden</p>
+
+    </footer>
+
+</body>
+</html>

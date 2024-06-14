@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* seletores personalizados
+         # = id
+         . = class
+         : = pseudo-class
+         :: = pseudo-element
+         > = clildren
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: rgb(235, 21, 171);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(170, 117, 20);
+
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: chartreuse;
+        }
+        .especial{
+            background-color: rgb(177, 222, 135);
+        }
+        .especial::before{
+            content: '✉';
+        }
+        .especial::after{
+            content: '✉';
+
+        }
+        
+        a::before{
+            content: '⚞';
+            color: rgb(20, 140, 220);
+        }
+        a::after{
+            content: '⚟';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgb(20, 140, 220);
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+<ul>
+    
+        <li><a href="https://github.com/huelden" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://www.youtube.com/@hueldencarvalho9277" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.linkedin.com/in/jose-huelden-carvalho-santos-407ab2249/" class="especial">Site Linkedln</a></li>
+</ul>
+    
+</body>
+</html>

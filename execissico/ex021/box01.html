@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{ /* box-level*/
+
+            /* se quieser mudar para box-inline é so por o comando 
+            [display:inline;]*/
+            background-color: brown;   
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkgreen;
+
+           /* border: 10px solid darkgreen;  [para otimizar o comando]*/
+
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+           /* [para otimizar o comando]
+           padding:  10px 10px 10px 10px;
+           obs: se o box for com os 4 de 10px por exemplo , pode usar so exmp: padding: 10px;
+           se por dois valores ele vai por apenas em dois lados do box top e bottom por exemplo 
+            seguindo o sentido do relogio sentido horario.[para otimizar o comando]*/
+
+            
+            margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;
+
+             /* margin: 20px 40px ;
+             se quiser que o box fique ao centro 
+             margin: 20px auto 40px auto;
+              [para otimizar o comando]*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: burlywood;
+
+            /* autine: 5px dashed burlywood;
+              [para otimizar o comando]*/
+
+        }
+        a{ /* inline-level*/
+            border-width: 7px;
+    border-style: solid;
+    border-color: #2c88de80;
+    padding-top: 27px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>exemplo de caixa box-level</h1>
+    <p>Parágrafos tambem são exemplos de box-level, mas os <a href="#">links são exemplos de caixais inline-level </a>. Vamos ver como tudo isso fuciona.</p>
+</body>
+</html>
