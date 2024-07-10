@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexble box</title>
+    <style>
+        div.conteiner {
+            background-color: aquamarine;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        div.item1 {
+            background-color: rgb(48, 124, 89);
+            border: 1px solid black;
+            text-align: center;
+            flex: 0 1 150px;
+            /*
+            flex-shrik: 0;
+            flex-grow: 1;
+            flex-basis:150px
+            */
+          
+        }
+        div.item2 {
+            background-color: rgb(252, 230, 37);
+            border: 1px solid black;
+            text-align: center;
+           
+            flex: 1 0 150px;
+          
+        }
+        div.item3 {
+            background-color: rgb(196, 60, 223);
+            border: 1px solid black;
+            text-align: center;
+            flex: 0 1 150px;
+          
+        }
+      
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto voluptate corrupti voluptatibus consequuntur suscipit, magni accusantium. Consequuntur odio, dolorem molestias quas unde facilis nam velit nostrum? Excepturi quis magni perspiciatis?</div>
+        <div class="item2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos eveniet voluptates rerum vitae eum optio non modi numquam quod. Sint maiores adipisci impedit, esse fugiat sequi voluptates consequatur voluptatibus!Lorem</div>
+        <div class="item3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquam excepturi adipisci, odio qui delectus sequi perspiciatis architecto vel, laborum a rerum veniam alias doloremque, vero recusandae! Enim, et distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus eos facilis magni placeat excepturi. Totam esse ipsum possimus fugiat dolore quia saepe beatae doloribus autem, laboriosam reprehenderit aliquid voluptatibus earum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non quia modi excepturi facere tenetur, quisquam enim, alias fugiat eveniet nesciunt officiis atque aut voluptatibus cumque neque ab vero vel dolor?</div>
+        
+
+    </div>
+    
+</body>
+</html>
